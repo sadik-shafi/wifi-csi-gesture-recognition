@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Trained model (binary, large)
+*.pkl
+
+# Generated CSI data (personal recordings)
+raw_csi_gesture_data_*.csv
+
+# Generated plots
+*.png
+
+# WiFi credentials — NEVER commit this
+wifi_credentials.h
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
